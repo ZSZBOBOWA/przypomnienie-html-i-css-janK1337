@@ -50,7 +50,14 @@ main {
     color: #000080;
     font-size: 18px;
 }
-
+main h1 {
+    color: #191970; 
+    font-size: 28px;
+}
+main p {
+    line-height: 1.6;
+    text-align: justify;
+}
 aside {
     width: 30%;
     min-height: 400px;
