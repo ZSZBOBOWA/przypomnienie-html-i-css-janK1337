@@ -24,3 +24,18 @@
 .blok4 {
     background-color: yellow;
 }
+img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 200px;
+}
+th, td {
+    padding: 8px 12px;
+    text-allign: left;
+}
