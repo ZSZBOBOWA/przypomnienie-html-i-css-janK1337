@@ -12,6 +12,9 @@ header {
     color: white;
     font-size: 32px;
     font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -45,10 +48,12 @@ main {
     min-height: 400px;
     background-color: #F0F8FF;
     float: left;
-    padding-inline: 20px;
+    
     text-align: left;
     color: #000080;
     font-size: 18px;
+    
+    
 }
 main h1 {
     color: #191970; 
@@ -63,7 +68,7 @@ aside {
     min-height: 400px;
     background-color: #B0C4DE;
     float: right;
-    padding-inline: 20px;
+    
     color: #000080;
     font-size: 16px;
 }
@@ -75,6 +80,9 @@ footer {
     text-align: center;
     color: white;
     font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 table {
     width: 100%;
@@ -97,4 +105,10 @@ table {
 tr:nth-child(even) {
     background-color: #84a5ff;
 }
-
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+}
