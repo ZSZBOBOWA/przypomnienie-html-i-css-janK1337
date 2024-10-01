@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    text-align: center;
+    font-style: bold;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    float: left;
+    width: 30%;
+    min-height: 400px;
+    background-color: #fbff00;
+}
+main {
+    float: left;
+    width: 50%;
+    min-height: 400px;
+    background-color: #33ff00;
+}
+aside {
+    float: right;
+    width: 20%;
+    min-height: 400px;
+    background-color: #ff0000;
+}
+footer {
+    clear: both;
+    width: 100%;
+    height: 60px;
+    background-color: #4c00ff;
+}
