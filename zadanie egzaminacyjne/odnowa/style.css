@@ -1,0 +1,33 @@
+* {
+    padding: auto;
+    margin: auto;
+
+}
+
+nav {
+    background-color: #E1BEE7;
+    width: 25%;
+    height: 400px;
+    float: left;
+}
+
+header{ 
+    background-color: #d900ff;
+    width: 75%;
+    height: 150px;
+    float: right;
+}
+
+main {
+    width: 75%;
+    background-color: aquamarine;
+    float: right;
+    height: 580px;
+}
+aisde {
+    width: 25%;
+    height: 330px;
+    background-color: rgb(81, 255, 0);
+}
+
+
