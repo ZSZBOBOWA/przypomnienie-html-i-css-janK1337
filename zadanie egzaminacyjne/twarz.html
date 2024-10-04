@@ -48,5 +48,30 @@
 
     <footer>Autor: Pawel Janik</footer>
 </body>
+<script>
+    function myFunction() {
+       let cena = 0;
+       let Peeling = document.getElementById("peeling");
+       let maskax = document.getElementById("maska");
+       let masaz = document.getElementById("masaz");
+       let makijaz = document.getElementById("makijaz");
+
+        if (peeling.checked) {
+            cena += 45;
+        }
+        if (maska.checked) {
+            cena += 30;
+        }
+        if (masaz.checked) {
+            cena += 20;
+        }
+        if (makijaz.checked) {
+            cena += 50;
+        }
+
+       let cenaElement = document.getElementById("cena");
+        cenaElement.innerHTML = "Cena zabiegów: " + cena;
+    }
+</script>
 
 </html>
